@@ -139,7 +139,7 @@ nextflow run nf-core/viralrecon -profile docker \
 - No host (human) contamination detected
 - Most of the reads (> 94%) mapped to the reference
 - No adapter contamination
-- High quality scores; most reads: length 197–221 bp
+- High quality scores; most reads length ranges from 197–221 bp
 
 
 #### fastp
@@ -174,17 +174,14 @@ nextflow run nf-core/viralrecon -profile docker \
 
 Important variant information for each sample is found in `variants_long_table.csv`. These results can be visualized using R and ggplot2.
 
-#Distribution of variant types across genes
+#### Distribution of variant types across genes
 
 ![Variant Effects](Variant_Effects.png)
 
-The bar plot here represents variant distribution.
 
-# Total read depth per chromosome
+#### Total read depth per chromosome
 
 ![DP_Per_Chromosome](DP_Per_Chromosome.png)
-
-The box plot above represents the depth of coverage per chromosome in each of the samples.
 
 ## References
 
